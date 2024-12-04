@@ -1,0 +1,290 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 5px 3px;
+  align-items: center;
+}
+nav h1{
+  color: white;
+  font-size: 2em;
+  padding-top: 5px;
+}
+
+nav h1 i{
+  color:  sandybrown;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+nav ul{
+  display: flex;
+  gap: 10px;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  border-bottom: 1px solid gold;
+}
+
+.very{
+  margin: 0px 10px;
+  margin-bottom: 50px;
+}
+
+.very .ready{
+  background-image: linear-gradient(300deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./loyalty.jpg");
+  height: 500px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 20px 5px;
+  text-align: justify-all;
+}
+
+.ready a{
+  text-decoration: none;
+}
+
+.ready h1{
+  color: black;
+}
+
+.most> .main{
+  background-image: linear-gradient(300deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(./folding.jpg);
+  height: 700px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.main a{
+  margin: 30px;
+  text-decoration: none;
+  padding-left: 500px;
+  padding-right: 10px;
+}
+.main a h1{
+  color: azure;
+  padding-bottom: 10px;
+}
+.main a p{
+  font-size: 0.8em;
+  color: black;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+.main a h2{
+  color: firebrick;
+}
+.main a div{
+  line-height: 30px;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+figure a{
+  text-decoration: none;
+}
+
+figure a h1{
+  color: white;
+  font-size: 3em;
+}
+figure a p{
+  color: grey;
+  font-size: 17px;
+}
+
+figure section{
+  margin-top: 30px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure section .ref{
+  background-color: dimgray;
+  border-radius: 10px;
+  height: 400px;
+  width: 450px;
+  text-align: left;
+  padding: 20px;
+}
+.ref a h1{
+  color: orange;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.ref a h2{
+  color: white;
+  padding-bottom: 15px;
+}
+
+.ref a p{
+  color: darkgray;
+}
+
+.section_1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+}
+.section_1 h1{
+  color: white;
+  padding-bottom: 35px;
+  font-size: 3em;
+}
+.section_1 p{
+  color: white;
+  font-size: 1.2em;
+}
+
+.section_1 .child_1 {
+  display: flex;
+  margin: 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.child_1 .div-1 a{
+  text-decoration: none;
+  color: orange;
+  font-size: 4.9em;
+}
+
+.child_1 .div-1 p{
+  font-size: 1em;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.section_1 .child_1 >.div-1{
+  background-color: grey;
+  width: 31.1%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_2{
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section_2 h1{
+  color: white;
+  font-size: 2em;
+  font-family: serif;
+}
+.section_2 p{
+  color: white;
+  font-size: 1.2em;
+}
+
+.section_2 .child-2{
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section_2 .child-2> .child-3{
+  background-image: url(./paper.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 340px;
+}
+
+.section_2 .child-2> .child-4{
+  background-image: url(./lap.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 490px;
+}
+
+.section_2 .child-2> .child-5{
+  background-image: url("./lang.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 490px;
+}
+
+.section_2 .child-2> .child-6{
+  background-image: url("./man type.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 340px;
+}
+
+.section_2 .child-2> .child-7{
+  background-image: url("./darw.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: left;
+  height: 400px;
+  width: 490px;
+}
+
+.section_2 .child-2> .child-8{
+  background-image: url("./man.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 340px;
+}
+
+.fired{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px;
+  row-gap: 60px;
+}
+.fired> div{
+  background-image: url("./tv.png");
+  background-repeat: none;
+  background-size: cover;
+  background-position: right;
+  height: 400px;
+  width: 340px;
+  
+}
